@@ -51,3 +51,19 @@
 .bg-col{
     background-color: #002EAD;
 }
+
+@media screen and (max-width: 480px) {
+    #search-container{
+        width: 95vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #search-container input{
+        width: 70vw;
+    }
+    #search-container button{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+  }
