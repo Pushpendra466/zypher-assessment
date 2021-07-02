@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon -->
+        <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+        <!-- Icons -->
+        <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+        <link href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+        <!-- Argon CSS -->
+        <link type="text/css" href="./assets/css/argon.min.css" rel="stylesheet">
+        <!-- main css -->
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+
+        <header id="top">
+            <i class="fas fa-cloud-download-alt"></i>
+            <i class="fas fa-money-check-alt"></i>
+            <i class="fas fa-bell"></i>
+            <img src="./assets//img/default.png">
+            <span>Temporary</span>
+        </header>
+
+        <div id="main">
+        <section id="search-and-add" >
+            <p>Clients</p>
+            <div id="search-container" >
+            <input type="text" class="form-control" placeholder="Search by customer name/email" >
+            <button type="button" class="btn btn-default bg-col">Search</button> 
+            </div>
+            <div>
+            <button type="button" class="btn btn-default bg-col">Add New Customer</button>
+        </div>
+        </section>
+
+        <section id="order-details-container">
+
+            <div class="table-responsive">
+                <div>
+                    <table class="table align-items-center ">
+                        <thead class="text-dark">
+                            <tr>
+                                <th scope="col" ><b>CLIENT ID</b></th>
+                                <th scope="col" ><b>CLOSING AGENT</b></th>
+                                <th scope="col" ><b>COMPANY</b></th>
+                                <th scope="col"><b>ORDER</b></th>
+                                <th scope="col" ><b>INVOICE PAID</b></th>
+                                <th scope="col"><b>INVOICE PENDING</b></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="list ">
+                          
+                        </tbody>
+                    </table>
+                </div>
+         
+                </div>
+        </section>
+        </div>
+
+        <!-- Core -->
+        <script src="./assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Argon JS -->
+        <script src="./assets/js/argon.min.js"></script>
+        <!-- main js -->
+        <script src="./index.js" async defer></script>
+    </body>
+</html>
